@@ -1,0 +1,247 @@
+/* ===== Global Background ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: url("../images/jkkniu.jpg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    color: #fff;
+}
+/* ===== Header Section ===== */
+.header-container {
+    text-align: center;
+    padding: 20px 0 5px 0;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== Title ===== */
+.site-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+/* ===== Navigation ===== */
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    background: transparent;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #0aa8cf;
+}
+
+
+/* ===== Main Container ===== */
+.report-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+/* ===== Box Style ===== */
+.report-box {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* ===== Headings ===== */
+.report-box h2,
+.report-box h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* ===== Form ===== */
+.report-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.report-form label {
+    font-weight: 500;
+    color: #fff;
+}
+
+.report-form input,
+.report-form select {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 16px;
+}
+
+.report-form input::placeholder {
+    color: #ddd;
+}
+
+.report-form button {
+    background-color: #0aa8cf;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.report-form button:hover {
+    background-color: #0983a7;
+}
+
+/* ===== Tables ===== */
+.report-table {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.report-table th,
+.report-table td {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.report-table th {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.report-table tr:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Glassy Report Style */
+
+
+.auth-form {
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.auth-form .form-group {
+    display: flex;
+    flex-direction: column;
+    color: #f0f2f4;
+}
+
+.auth-form select, 
+.auth-form input, 
+.auth-form button {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background: rgba(255,255,255,0.1);
+    color: #0e0e0eff;
+    cursor: pointer;
+}
+
+.auth-form select:hover,
+.auth-form input:hover,
+.auth-form button:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.auth-form button {
+    background-color: #004aad;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 14px;
+    background: rgba(255,255,255,0.05);
+    color: #f0f2f4;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(255,255,255,0.15);
+    font-weight: 600;
+}
+
+tbody tr:hover td {
+    background-color: rgba(255,255,255,0.1);
+}
+
+/* ===== Messages ===== */
+.success {
+    color: #32cd32;
+    background: rgba(50, 205, 50, 0.1);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.error {
+    color: #ff6b6b;
+    background: rgba(255, 107, 107, 0.1);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.message-box p.error {
+    background: #d9534f; 
+    color: #fff; 
+    padding: 10px; 
+    border-radius: 6px;
+}
+
+.message-box p.success {
+    background: #e6ffea; 
+    color: #0a8a00; 
+    padding: 10px; 
+    border-radius: 6px;
+}
